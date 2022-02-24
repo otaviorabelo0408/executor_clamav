@@ -44,6 +44,7 @@ def menu_inicial():
                         system("clear")
                         if opc_int == 1:
                             print("Obrigado por utilizar o sistema. Aguarde 5 segundos pelo seu encerramento.")
+                            sleep(5)
                             exit(0)
                         else:
                             print("Opção inválida. Tente novamente!\n")
